@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    
+}
+
+.title {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.component-list-item {
+    font-size: 1.5rem;
+    padding: 0.5em 0;
+}
+
+
+@media (min-width: 650px) {
+    .main-page {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        margin:0 0;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .component-list-item {
+        font-size: 1.3rem;
+        padding: 0.5em 0;
+    }
+
+}
