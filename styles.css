@@ -1,5 +1,7 @@
 @import './components/avatar/avatar.css';
 @import './components/button/button.css';
+@import './components/navigation/navigation.css';
+@import './components/alert/alert.css';
 
 body {
     margin: 0;
