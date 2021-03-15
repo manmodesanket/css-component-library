@@ -79,7 +79,7 @@ li {
     background-color: rgb(0,0,0, 0.1);
 }
 
-.component-list-item a {
+.component-list-item {
     color: black;
     text-decoration: none;
 }
@@ -101,6 +101,19 @@ li {
         width: 85%;
         height: 100vh;
         margin:0 0;
+    }
+
+    .component-list {
+        position: fixed;
+        order: -1;
+        width: 15%;
+        height: 100vh;      
+        display: flex;
+        flex-direction: column;
+        background-color:white;
+        text-align: center;
+        margin: 0 0;
+        overflow-y: auto; 
     }
 
     .nav {
