@@ -2,6 +2,8 @@
 @import './components/button/button.css';
 @import './components/navigation/navigation.css';
 @import './components/alert/alert.css';
+@import './components/card/card.css';
+@import './components/modal/modal.css';
 
 body {
     margin: 0;
@@ -20,7 +22,6 @@ body {
 
 .component-page {
     order: 2;
-    text-align: center;
     padding: 1em;
 }
 
@@ -66,6 +67,10 @@ li {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+}
+
+.item {
+    padding: 1em 0;
 }
 
 
@@ -121,6 +126,7 @@ li {
     }
 
     .item-card {
+        text-align: unset;
         display: flex;
         flex-direction: column;
         max-width: 50%;

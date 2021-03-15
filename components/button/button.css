@@ -5,7 +5,9 @@
     border-radius: 5px;
     text-decoration: none;
     padding: 0.75em 1.5em;
-    border: 1px solid grey
+    border: 1px solid grey;
+    display: block;
+    cursor: pointer;
 }
 
 .btn:hover {
