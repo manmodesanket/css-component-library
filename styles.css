@@ -1,4 +1,5 @@
 @import './components/avatar/avatar.css';
+@import './components/badge/badge.css';
 @import './components/button/button.css';
 @import './components/navigation/navigation.css';
 @import './components/alert/alert.css';
@@ -71,12 +72,17 @@ li {
     width: 100%;
 }
 
+.st {
+    transition: all 0.5s ease;
+}
+
 .component-list {
     margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     display: none;
+    transition: all 0.5s ease;
 }
 
 .show {
@@ -85,6 +91,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 0.5s ease;
 }
 
 .hide {
